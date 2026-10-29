@@ -1,0 +1,123 @@
+[
+  {
+    "orderNumber": 1001,
+    "customer": {
+      "name": "Олег Крылов",
+      "city": "Москва"
+    },
+    "status": "delivered",
+    "total": 5400,
+    "tags": [
+      "gift",
+      "express"
+    ],
+    "items": [
+      {
+        "title": "Наушники",
+        "qty": 1,
+        "price": 4200
+      },
+      {
+        "title": "Чехол",
+        "qty": 2,
+        "price": 600
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-10-01T09:15:00Z"
+    }
+  },
+  {
+    "orderNumber": 1002,
+    "customer": {
+      "name": "Дарья Ефимова",
+      "city": "Ярославль"
+    },
+    "status": "new",
+    "total": 1200,
+    "tags": [
+      "express"
+    ],
+    "items": [
+      {
+        "title": "Кабель USB-C",
+        "qty": 2,
+        "price": 600
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-10-05T12:40:00Z"
+    }
+  },
+  {
+    "orderNumber": 1003,
+    "customer": {
+      "name": "Тимур Галиев",
+      "city": "Ярославль"
+    },
+    "status": "new",
+    "total": 15800,
+    "items": [
+      {
+        "title": "Клавиатура",
+        "qty": 1,
+        "price": 7800
+      },
+      {
+        "title": "Монитор-кронштейн",
+        "qty": 1,
+        "price": 8000
+      }
+    ],
+    "promoCode": "AUTUMN10",
+    "createdAt": {
+      "$date": "2026-10-12T17:05:00Z"
+    }
+  },
+  {
+    "orderNumber": 1004,
+    "customer": {
+      "name": "Софья Мельник",
+      "city": "Москва"
+    },
+    "status": "paid",
+    "total": 9300,
+    "tags": [
+      "gift"
+    ],
+    "items": [
+      {
+        "title": "Умная колонка",
+        "qty": 1,
+        "price": 9300
+      }
+    ],
+    "promoCode": "AUTUMN10",
+    "createdAt": {
+      "$date": "2026-10-20T08:00:00Z"
+    }
+  },
+  {
+    "orderNumber": 1005,
+    "customer": {
+      "name": "Глеб Островский",
+      "city": "Казань"
+    },
+    "status": "cancelled",
+    "total": 700,
+    "tags": [
+      "gift"
+    ],
+    "items": [
+      {
+        "title": "Защитное стекло",
+        "qty": 1,
+        "price": 700
+      }
+    ],
+    "cancelReason": "передумал",
+    "createdAt": {
+      "$date": "2026-10-22T19:30:00Z"
+    }
+  }
+]
